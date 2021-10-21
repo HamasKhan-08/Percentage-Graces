@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int percentage;
+	cout << " Please Enter The Percenatage Of Marks " << endl;
+	cin >> percentage;
+	if (percentage > 70) {
+		cout << " A " << endl;
+	} if ( ( ( percentage == 60 ) || percentage > 60 ) && percentage < 70 ) {
+		cout << " B " << endl;
+	} if ( ( ( percentage == 50 ) || percentage > 50 ) && percentage < 60 ) {
+		cout << " C " << endl;
+	} if ( ( ( percentage == 40 ) || percentage > 40 ) && percentage < 50 ) {
+		cout << " D " << endl;
+	} if (percentage < 40) {
+		cout << " F " << endl;
+	}
